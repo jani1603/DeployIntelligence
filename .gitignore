@@ -1,0 +1,35 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python build artifacts
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Generated ledger data — never commit
+data/deployments.json
+
+# Test / temp output files
+verify_out.txt
+test_output.txt
+test_results.txt
+env_check.txt
+env_dump.txt
+git_*.txt
+
+# Node / React build artifacts
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# OS
+.DS_Store
+Thumbs.db
+data/deployments.backup.json
+verify_184.py
